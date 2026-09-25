@@ -1,0 +1,11 @@
+# Generado por el build: nunca se versiona
+target/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.DS_Store
