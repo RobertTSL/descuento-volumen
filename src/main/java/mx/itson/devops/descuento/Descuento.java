@@ -14,7 +14,7 @@ public class Descuento {
         if (unidades < 0) {
             throw new IllegalArgumentException("unidades negativas: " + unidades);
         }
-        return unidades > 100 ? 10 : 0;
+        return unidades >= 100 ? 10 : 0;
     }
 
     /** Total a cobrar en centavos, ya con el descuento aplicado. */
